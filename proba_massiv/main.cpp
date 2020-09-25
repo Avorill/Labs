@@ -47,6 +47,6 @@ int main() {
   for(int i=0;i<size;i++)//cout massiv elsements
   {
 	cout<<mas[i]<<"  ||  ";
-  }
+  }//the third task of 11 variant
   return 0;
 }
