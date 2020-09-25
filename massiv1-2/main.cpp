@@ -69,8 +69,9 @@ int main() {
    {
 	 cout<<endl;
 	 cout<<"product of array elements== "<<proiz<<endl;
+	  
    }
-
+ //end
 
 
   return 0;
