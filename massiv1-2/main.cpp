@@ -13,19 +13,26 @@ int main() {
   double mas[SIZ];
   cout << "will you enter randomly or set manually? enter 1-random, 2-manually" << endl;
   cin >> p;
+  double min_gr,max_gr;
+  cout<<"enter the left border of the random"<<endl;
+  cin>>min_gr;
+  cout<<"enter the right border of the random"<<endl;
+  cin>>max_gr;
   if (p==1) {
 	for (int i = 0; i < size; i++) {
-	  uniform_real_distribution<> urd(-100, 100);//random massiv
+	  uniform_real_distribution<> urd(min_gr, max_gr);//random massiv
 	  mas[i] = urd(gen);
+	  cout<<mas[i]<<"  ";
 
 	}
   } else {
-	cout << "enter massiv elements [-100;100]" << endl;//enter array elements
+	cout << "enter massiv elements " << endl;//enter array elements
 	for (int i = 0; i < size; i++) {
 	  cin >> mas[i];
 
 	}
   }
+  cout<<endl;
   double max, min;
   int k = size - 1, b = size - 1;
   max = mas[size - 1];
