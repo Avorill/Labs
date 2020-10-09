@@ -1,3 +1,0 @@
-C:/Users/c5066469/Desktop/reposit/Labs/laba3_1/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/c5066469/Desktop/reposit/Labs/laba3_1/cmake-build-debug/CMakeFiles/laba3_1.dir
-C:/Users/c5066469/Desktop/reposit/Labs/laba3_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

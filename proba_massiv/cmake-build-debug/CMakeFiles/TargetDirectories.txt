@@ -1,3 +1,0 @@
-C:/Users/c5066469/Desktop/reposit/Labs/proba_massiv/cmake-build-debug/CMakeFiles/proba_massiv.dir
-C:/Users/c5066469/Desktop/reposit/Labs/proba_massiv/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/c5066469/Desktop/reposit/Labs/proba_massiv/cmake-build-debug/CMakeFiles/rebuild_cache.dir
