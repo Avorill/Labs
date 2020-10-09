@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/c5066469/Desktop/reposit/Labs/massiv1-2/main.cpp
+iostream
+-
+random
+-
+ctime
+-
+
+C:/Users/c5066469/Desktop/reposit/Labs/proba_massiv/main.cpp
+iostream
+-
+random
+-
+ctime
+-
+algorithm
+-
+
