@@ -1,0 +1,5 @@
+The line "ma" number 0  occurrences 3
+The line "ga" number 3  occurrences 1
+The line "ma ma" number 4  occurrences 2
+The line "ga ga" number 6  occurrences 1
+The line "ma ga" number 7  occurrences 3
