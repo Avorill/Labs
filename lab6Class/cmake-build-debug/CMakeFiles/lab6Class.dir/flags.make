@@ -6,5 +6,5 @@ CXX_FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd   -std:c++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -IC:\Users\c5066469\Desktop\Labs\Labs-laba6full\Labs-laba6full\lab6Class\lib\googletest\googletest\include -IC:\Users\c5066469\Desktop\Labs\Labs-laba6full\Labs-laba6full\lab6Class\src 
+CXX_INCLUDES = -IC:\Users\c5066469\Desktop\Labs\Labs-laba6full\Labs-laba6full\lab6Class\src -IC:\Users\c5066469\Desktop\Labs\Labs-laba6full\Labs-laba6full\lab6Class\lib\googletest\googletest\include -IC:\Users\c5066469\Desktop\Labs\Labs-laba6full\Labs-laba6full\lab6Class\lib\googletest\googletest 
 

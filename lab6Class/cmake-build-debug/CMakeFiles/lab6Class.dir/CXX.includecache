@@ -303,6 +303,8 @@ acxx_demangle.h
 ../src/Fraction.h
 iostream
 -
+string
+-
 
 C:/Users/c5066469/Desktop/Labs/Labs-laba6full/Labs-laba6full/lab6Class/test/number_tests.cpp
 gtest/gtest.h

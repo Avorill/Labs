@@ -8,4 +8,5 @@ add_subdirectory(src)
 include_directories(src)
 file(GLOB tests "test/*.cpp")
 add_executable(lab6Class ${tests})
-#add_executable(lab6Class src gtest gtest_main)
+
+target_link_libraries(lab6Class src gtest gtest_main)

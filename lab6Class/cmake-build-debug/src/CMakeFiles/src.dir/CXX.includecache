@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/c5066469/Desktop/Labs/Labs-laba6full/Labs-laba6full/lab6Class/src/Fraction.cpp
+Fraction.h
+C:/Users/c5066469/Desktop/Labs/Labs-laba6full/Labs-laba6full/lab6Class/src/Fraction.h
+string
+-
+
+C:/Users/c5066469/Desktop/Labs/Labs-laba6full/Labs-laba6full/lab6Class/src/Fraction.h
+iostream
+-
+string
+-
+

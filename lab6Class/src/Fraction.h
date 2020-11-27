@@ -2,6 +2,7 @@
 // Created by c5066469 on 31-Oct-20.
 //
 #include <iostream>
+#include <string>
 #ifndef LAB6CLASS__FRACTION_H_
 #define LAB6CLASS__FRACTION_H_
 class Fraction {

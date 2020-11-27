@@ -158,7 +158,9 @@ src\clean: src\CMakeFiles\src.dir\clean
 # Target rules for target CMakeFiles/lab6Class.dir
 
 # All Build rule for target.
-CMakeFiles\lab6Class.dir\all:
+CMakeFiles\lab6Class.dir\all: src\CMakeFiles\src.dir\all
+CMakeFiles\lab6Class.dir\all: lib\googletest\googletest\CMakeFiles\gtest.dir\all
+CMakeFiles\lab6Class.dir\all: lib\googletest\googletest\CMakeFiles\gtest_main.dir\all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab6Class.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\lab6Class.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab6Class.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\lab6Class.dir\build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\c5066469\Desktop\Labs\Labs-laba6full\Labs-laba6full\lab6Class\cmake-build-debug\CMakeFiles --progress-num=12,13 "Built target lab6Class"
@@ -166,7 +168,7 @@ CMakeFiles\lab6Class.dir\all:
 
 # Build rule for subdir invocation for target.
 CMakeFiles\lab6Class.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\c5066469\Desktop\Labs\Labs-laba6full\Labs-laba6full\lab6Class\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\c5066469\Desktop\Labs\Labs-laba6full\Labs-laba6full\lab6Class\cmake-build-debug\CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\lab6Class.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\c5066469\Desktop\Labs\Labs-laba6full\Labs-laba6full\lab6Class\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\lab6Class.dir\rule

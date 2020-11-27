@@ -1,4 +1,5 @@
 #include "Fraction.h"
+#include <string>
   Fraction::Fraction() {
   	std::cout << "I can't do this. :(\n";
 }
@@ -87,5 +88,9 @@ void Fraction::Division(const Fraction & frac) {
 
   Numerator*=frac.Denominator;
   Denominator*=frac.Numerator;
+  if(Numerator*Denominator>=0){
+    Numerator=abs(Numerator);
+    Denominator=abs(Denominator);
+  }
   Reduct(Numerator,Denominator);
 }
