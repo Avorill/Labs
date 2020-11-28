@@ -6,7 +6,7 @@
 class StudentAftSecSession : public StudentAftFSession
 {
  public:
-  StudentAftSecSession(const Student&, int* SGrades);
+
   StudentAftSecSession(const StudentAftFSession &student, int *SGrades);
   StudentAftSecSession(const StudentAftSecSession &student);
   int *GetGrades2();

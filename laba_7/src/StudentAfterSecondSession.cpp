@@ -19,16 +19,7 @@ StudentAftSecSession::StudentAftSecSession(const StudentAftSecSession & student_
 	Grades2[i]=student_aft_s_session.Grades2[i];
   }
 };
-StudentAftSecSession::StudentAftSecSession(const Student &student, int *SGrades)
-    :StudentAftFSession(student,SGrades)
-{
-  Grades2 = new int [5];
-  for(int i = 0; i < 5; i++ )
-  {
-    Grades2[i] = SGrades[i];
-  }
 
-}
 int *StudentAftSecSession::GetGrades2() {
   return Grades2;
 }
@@ -36,13 +27,13 @@ double StudentAftSecSession::AverageMark()
 {
   double averageMark=0;
   for(int i = 0; i < 5; i++){
-    averageMark+=Grades2[i]/5;
+    averageMark+=(double)Grades2[i]/5;
   }
  for(int i = 0;i < 4; i++){
-   averageMark+=Grades[i]/4;
+   averageMark+=(double)Grades[i]/4;
  }
  averageMark = averageMark/2;
- std::cout<<"The average mark of holl year is"<<averageMark<<"\n";
+ std::cout<<"The average mark of holl year is  "<<averageMark<<"\n";
  return averageMark;
 }
 int *StudentAftSecSession::ChangeGrades2(int* SGrades)

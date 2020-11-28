@@ -1,19 +1,20 @@
 
 
-#ifndef LABA_7__STUDENT_H_
-#define LABA_7__STUDENT_H_
-#include <string>
 
+#include <string>
+#pragma  once
 class Student {
  private:
-  	 static int Id;
-  	 static int numberOfRecordBook;
-//  	 static int CoID;
-//  	 static int ReB;
+  	 static int identifier;
+  	 static int nRB;
+  	 int Id;
+  	 int numberOfRecordBook;
+
  protected:
   	char *name;
   	int numberOfCourse;
   	int numberOfGroup;
+
  public:
   	void Print();
   	Student(char*, int, int);
@@ -29,5 +30,3 @@ class Student {
   	virtual double AverageMark();
     friend std::ostream & operator <<(std::ostream &, Student& );
 };
-
-#endif //LABA_7__STUDENT_H_

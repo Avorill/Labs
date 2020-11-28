@@ -1,22 +1,27 @@
 #include "Student.h"
 #include <iostream>
-int Student::Id = 0;
-int Student::numberOfRecordBook = 20;
+int Student::identifier = 0 ;
+int Student::nRB = 20200;
 Student::Student(char *nname,int course, int group)
 {
+
  name = nname;
  numberOfCourse=course;
  numberOfGroup=group;
- Id++;
- numberOfRecordBook++;
+ identifier++;
+ nRB++;
+ Id = identifier;
+ numberOfRecordBook = nRB;
+
 }
 Student::Student(const Student & a) {
   name=a.name;
   numberOfCourse=a.numberOfCourse;
   numberOfGroup=a.numberOfGroup;
-  Id++;
+  identifier ++;
+  Id = identifier;
   numberOfRecordBook = a.numberOfRecordBook;
-  numberOfRecordBook++;
+  nRB++;
 }
 char* Student::GetName() {
   return name;

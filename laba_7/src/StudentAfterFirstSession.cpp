@@ -30,7 +30,7 @@ StudentAftFSession::StudentAftFSession(char *_name, int group, int course, int *
 double StudentAftFSession::AverageMark(){
  double averageMark=0;
  for(int i=0;i<4;i++){
-   averageMark+=(Grades[i]/4);
+   averageMark+=((double)Grades[i]/4);
  }
   return averageMark;
 }

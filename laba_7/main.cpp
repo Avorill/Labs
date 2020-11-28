@@ -1,7 +1,7 @@
 #include <iostream>
-#include "Student.h"
-#include "StudentAfterFirstSession.h"
-#include "StudentAfterSecondSession.h"
+#include "src/Student.h"
+#include "src/StudentAfterFirstSession.h"
+#include "src/StudentAfterSecondSession.h"
 int main() {
   Student firstStudent("Ivan",1,10);
   int* FirstSetOfMarks = new int[4] {2,4,6,8};
