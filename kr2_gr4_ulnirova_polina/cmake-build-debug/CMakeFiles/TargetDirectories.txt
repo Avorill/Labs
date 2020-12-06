@@ -1,0 +1,3 @@
+C:/Users/c5066469/Desktop/kr2_gr4_ulnirova_polina/cmake-build-debug/CMakeFiles/kr2_gr4_ulnirova_polina.dir
+C:/Users/c5066469/Desktop/kr2_gr4_ulnirova_polina/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/c5066469/Desktop/kr2_gr4_ulnirova_polina/cmake-build-debug/CMakeFiles/rebuild_cache.dir
